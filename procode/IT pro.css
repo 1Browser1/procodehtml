@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	--bg-color: #2FA395;
+	--primary-size: 2rem;
+	--secondary-size: 1.4rem;
+	--bg-seconfary-color: #FFFFFF;
+	--text-color: #232323;/*чорний колір просто його не видно*/
+    --standart-margin: 3rem;
+
+}
+a{
+	text-decoration: none;
+	color: var(--text-color);
+}/*'a' and 'li' delete '.'*/
+li{
+	list-style-type: none;
+}
+.conteiner{
+	display: flex;
+	
+	
+}
+.portfol{
+    
+	background-color: var(--bg-color);
+}
+.photo{
+	
+	width: 200px;
+	height: 200px;
+	margin: 3rem;
+	border-radius: 15px;/*робить заукруглення картинки*/
+	
+}
+.name{
+	margin-left: var(--standart-margin);
+	color: var(--bg-seconfary-color);
+}
+.porof{
+	margin-left:var(--standart-margin);
+	color: var(--bg-seconfary-color);
+}
+.data{
+	margin: var(--standart-margin);
+	
+}
+.data_item{
+	background-color: var(--bg-seconfary-color);
+	margin-top: calc(var(--standart-margin) - 1rem) ;
+	padding: calc(var(--secondary-size) - 0.5rem) ;
+		border-radius: 15px;
+
+
+}
+.data_item:first-child{
+	margin-top: 0px ;
+
+}
+.Skills{
+	margin-left: var(--standart-margin);
+
+}
+.skills_list{
+	color: var(--bg-seconfary-color);
+}
+.skills_item{
+	list-style-type: disc;
+	margin-top: 2rem;
+}
+.Social_medai_list{
+		margin-top: 2rem;
+
+	color: var(--bg-seconfary-color);
+	margin-left: var(--standart-margin);
+}
+.Social_medai_item{
+		margin-top: 1rem;
+
+	margin-left: 2rem;
+	width: 2rem;
+	height: 2rem;
+
+
+}
+.About_info{
+	margin-left: 3rem;
+	margin-top: 3rem;
+}
+.me{
+	
+	margin-left: 30rem;
+}
+.About_me{
+	margin-top: 3rem;
+	
+}
+.Education{
+	margin-top: var(--standart-margin);
+}
+.Education_list{
+		margin-left: 30rem;
+
+}
+.Companies{
+		margin-top: var(--standart-margin);
+
+}
+.Companies_item{
+			margin-top: var(--standart-margin);
+
+}
+.Companies_list{
+			margin-left: 30rem;
+
+}
